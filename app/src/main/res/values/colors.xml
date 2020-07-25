@@ -1,0 +1,7 @@
+<resources>
+    <color name="colorPrimary">#33ac71</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="header_Color">#ffcc66</color>
+    <color name="background_color">#ffffcc</color>
+</resources>

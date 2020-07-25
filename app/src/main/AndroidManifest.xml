@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prm391.project.moneymanager" >
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.prm391.project.moneymanager.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.prm391.project.moneymanager.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.prm391.project.moneymanager.BudgetActivity"
+            android:label="@string/title_activity_budget" >
+        </activity>
+        <activity
+            android:name="com.prm391.project.moneymanager.ExpenseActivity"
+            android:label="@string/title_activity_expense" >
+        </activity>
+        <activity
+            android:name="com.prm391.project.moneymanager.SavingsActivity"
+            android:label="@string/title_activity_savings" >
+        </activity>
+        <activity
+            android:name="com.prm391.project.moneymanager.ReportsActivity"
+            android:label="@string/title_activity_reports" >
+        </activity>
+        <activity
+            android:name="com.prm391.project.moneymanager.ResetActivity"
+            android:label="@string/title_activity_reset" >
+        </activity>
+        <activity
+            android:name="com.prm391.project.moneymanager.SummaryActivity"
+            android:label="@string/title_activity_summary" >
+        </activity>
+    </application>
+
+</manifest>
